@@ -1,0 +1,8 @@
+Multiple Comparison of Means - Tukey HSD, FWER=0.05 
+====================================================
+group1 group2 meandiff p-adj   lower   upper  reject
+----------------------------------------------------
+  High    Low   0.5227 0.0267  0.0481  0.9972   True
+  High Medium  -0.0361 0.9768 -0.4477  0.3755  False
+   Low Medium  -0.5588 0.0046 -0.9734 -0.1441   True
+----------------------------------------------------

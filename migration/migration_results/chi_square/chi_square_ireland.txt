@@ -1,0 +1,16 @@
+Chi-square Test: ireland
+Chi2 statistic: 0.0088
+Degrees of freedom: 1
+p-value: 0.9252
+
+Observed (weighted counts):
+migrant_flag                    0           1
+loneliness_direct_bin                        
+0.0                    357.546690  208.275584
+1.0                    254.361252  144.950661
+
+Expected counts:
+migrant_flag                0       1
+loneliness_direct_bin                
+0.0                    358.74  207.08
+1.0                    253.17  146.14

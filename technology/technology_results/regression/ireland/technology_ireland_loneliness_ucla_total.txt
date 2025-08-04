@@ -1,0 +1,35 @@
+                              WLS Regression Results                             
+=================================================================================
+Dep. Variable:     loneliness_ucla_total   R-squared:                       0.114
+Model:                               WLS   Adj. R-squared:                  0.099
+Method:                    Least Squares   F-statistic:                     7.256
+Date:                   Sun, 27 Jul 2025   Prob (F-statistic):           1.04e-11
+Time:                           23:43:44   Log-Likelihood:                -1394.0
+No. Observations:                    630   AIC:                             2812.
+Df Residuals:                        618   BIC:                             2865.
+Df Model:                             11                                         
+Covariance Type:               nonrobust                                         
+===================================================================================================================
+                                                      coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------------------------
+Intercept                                           5.7117      0.338     16.890      0.000       5.048       6.376
+C(sm_usage_group)[T.Light]                         -0.3758      0.212     -1.775      0.076      -0.791       0.040
+C(sm_usage_group)[T.Never]                         -1.2659      0.346     -3.662      0.000      -1.945      -0.587
+C(age_band)[T.25-34]                                0.1060      0.309      0.343      0.732      -0.500       0.712
+C(age_band)[T.35-44]                                0.0570      0.301      0.189      0.850      -0.535       0.649
+C(age_band)[T.45-54]                               -0.4767      0.311     -1.534      0.126      -1.087       0.134
+C(age_band)[T.55-64]                               -0.9512      0.318     -2.995      0.003      -1.575      -0.327
+C(age_band)[T.65+]                                 -0.5249      0.344     -1.526      0.127      -1.200       0.150
+C(income_group)[T.Low]                              0.5763      0.210      2.744      0.006       0.164       0.989
+C(income_group)[T.Medium]                           0.2272      0.205      1.109      0.268      -0.175       0.629
+C(municipality_type_group)[T.Rural]                -0.4781      0.186     -2.567      0.010      -0.844      -0.112
+C(municipality_type_group)[T.Small/medium town]     0.1849      0.186      0.992      0.321      -0.181       0.551
+==============================================================================
+Omnibus:                       51.138   Durbin-Watson:                   1.949
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              100.963
+Skew:                           0.502   Prob(JB):                     1.19e-22
+Kurtosis:                       4.685   Cond. No.                         13.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

@@ -1,0 +1,16 @@
+Chi-square Test: eu
+Chi2 statistic: 83.1735
+Degrees of freedom: 1
+p-value: 7.516e-20
+
+Observed (weighted counts):
+migrant_flag                      0            1
+loneliness_direct_bin                           
+0.0                    13708.836287  1880.990924
+1.0                     7390.062230  1432.393456
+
+Expected counts:
+migrant_flag                  0        1
+loneliness_direct_bin                   
+0.0                    13473.88  2115.95
+1.0                     7625.02  1197.44

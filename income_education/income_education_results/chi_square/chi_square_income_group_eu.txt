@@ -1,0 +1,14 @@
+Chi-square Test: eu
+Chi2 statistic: 267.3917
+Degrees of freedom: 2
+p-value: 8.642e-59
+Observed (weighted counts):
+income_group                  High          Low       Medium
+loneliness_direct_bin                                       
+0.0                    4151.464847  3741.778250  6708.757284
+1.0                    1780.385973  2902.856682  3593.579640
+Expected counts:
+income_group              High      Low   Medium
+loneliness_direct_bin                           
+0.0                    3785.90  4240.82  6575.28
+1.0                    2145.95  2403.82  3727.05

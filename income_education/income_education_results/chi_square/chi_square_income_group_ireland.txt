@@ -1,0 +1,14 @@
+Chi-square Test: ireland
+Chi2 statistic: 12.5952
+Degrees of freedom: 2
+p-value: 0.001841
+Observed (weighted counts):
+income_group                 High         Low      Medium
+loneliness_direct_bin                                    
+0.0                    112.028717  159.864875  261.468778
+1.0                     74.216531  154.488515  148.090077
+Expected counts:
+income_group             High     Low  Medium
+loneliness_direct_bin                        
+0.0                    109.14  184.21  240.01
+1.0                     77.10  130.14  169.55

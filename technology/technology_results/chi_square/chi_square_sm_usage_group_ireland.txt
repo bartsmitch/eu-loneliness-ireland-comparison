@@ -1,0 +1,14 @@
+Chi-square Test: ireland
+Chi2 statistic: 27.8747
+Degrees of freedom: 2
+p-value: 8.853e-07
+Observed (weighted counts):
+sm_usage_group             Heavy       Light      Never
+loneliness_direct_bin                                  
+0.0                    43.920689  312.379656  39.273616
+1.0                    76.072778  218.695194  12.945360
+Expected counts:
+sm_usage_group         Heavy   Light  Never
+loneliness_direct_bin                      
+0.0                    67.49  298.71  29.37
+1.0                    52.50  232.36  22.85

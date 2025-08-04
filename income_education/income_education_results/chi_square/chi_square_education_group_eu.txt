@@ -1,0 +1,14 @@
+Chi-square Test: eu
+Chi2 statistic: 34.8065
+Degrees of freedom: 2
+p-value: 2.766e-08
+Observed (weighted counts):
+education_group        Post-secondary/Third Level  Primary or less    Secondary
+loneliness_direct_bin                                                          
+0.0                                   1800.230757      1262.303744  9051.553179
+1.0                                    988.899769       926.092836  5085.191376
+Expected counts:
+education_group        Post-secondary/Third Level  Primary or less  Secondary
+loneliness_direct_bin                                                        
+0.0                                       1767.67          1386.94    8959.47
+1.0                                       1021.46           801.45    5177.27

@@ -1,0 +1,14 @@
+Chi-square Test: eu
+Chi2 statistic: 499.2111
+Degrees of freedom: 2
+p-value: 3.96e-109
+Observed (weighted counts):
+sm_usage_group               Heavy        Light        Never
+loneliness_direct_bin                                       
+0.0                    1091.608681  9975.136562  1419.971362
+1.0                    1303.216980  4530.340880   649.693819
+Expected counts:
+sm_usage_group           Heavy    Light    Never
+loneliness_direct_bin                           
+0.0                    1576.36  9548.03  1362.33
+1.0                     818.47  4957.45   707.34

@@ -1,0 +1,19 @@
+country_group,income_group,education_group,n,loneliness_direct_bin_missing_%,loneliness_ucla_total_missing_%,loneliness_djg_total_missing_%
+EU,High,Post-secondary/Third Level,2829,2.3,0.0,0.0
+EU,High,Primary or less,185,6.5,0.0,0.0
+EU,High,Secondary,1912,2.2,0.0,0.0
+EU,Low,Post-secondary/Third Level,623,3.7,0.0,0.0
+EU,Low,Primary or less,472,8.9,0.0,0.0
+EU,Low,Secondary,2028,5.0,0.0,0.0
+EU,Medium,Post-secondary/Third Level,2262,2.4,0.0,0.0
+EU,Medium,Primary or less,441,5.9,0.0,0.0
+EU,Medium,Secondary,3473,3.6,0.0,0.0
+Ireland,High,Post-secondary/Third Level,107,1.9,0.0,0.0
+Ireland,High,Primary or less,3,0.0,0.0,0.0
+Ireland,High,Secondary,25,8.0,0.0,0.0
+Ireland,Low,Post-secondary/Third Level,47,0.0,0.0,0.0
+Ireland,Low,Primary or less,14,14.3,0.0,0.0
+Ireland,Low,Secondary,72,2.8,0.0,0.0
+Ireland,Medium,Post-secondary/Third Level,169,2.4,0.0,0.0
+Ireland,Medium,Primary or less,14,0.0,0.0,0.0
+Ireland,Medium,Secondary,76,3.9,0.0,0.0

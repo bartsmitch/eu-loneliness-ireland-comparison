@@ -1,0 +1,8 @@
+              Multiple Comparison of Means - Tukey HSD, FWER=0.05               
+================================================================================
+          group1                group2     meandiff p-adj   lower  upper  reject
+--------------------------------------------------------------------------------
+Post-secondary/Third Level Primary or less   0.5978 0.2416 -0.2741 1.4697  False
+Post-secondary/Third Level       Secondary   0.3304 0.1521 -0.0876 0.7483  False
+           Primary or less       Secondary  -0.2674 0.7653 -1.1693 0.6344  False
+--------------------------------------------------------------------------------
