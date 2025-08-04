@@ -1,0 +1,14 @@
+Chi-square Test: eu
+Chi2 statistic: 133.3727
+Degrees of freedom: 3
+p-value: 1.014e-28
+Observed (weighted counts):
+sex_orientation_group    Bisexual  Heterosexual  Homosexual      Other
+loneliness_direct_bin                                                 
+0.0                    373.441094  14390.409553  268.089945  96.349958
+1.0                    399.556448   7794.946917  247.902157  88.359934
+Expected counts:
+sex_orientation_group  Bisexual  Heterosexual  Homosexual   Other
+loneliness_direct_bin                                            
+0.0                      494.28      14185.96      329.94  118.11
+1.0                      278.72       7999.39      186.05   66.60

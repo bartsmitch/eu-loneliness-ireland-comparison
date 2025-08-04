@@ -1,0 +1,52 @@
+                              WLS Regression Results                             
+=================================================================================
+Dep. Variable:     loneliness_direct_bin   R-squared:                       0.109
+Model:                               WLS   Adj. R-squared:                  0.087
+Method:                    Least Squares   F-statistic:                     4.876
+Date:                   Sun, 27 Jul 2025   Prob (F-statistic):           2.50e-12
+Time:                           22:35:56   Log-Likelihood:                -745.52
+No. Observations:                    901   AIC:                             1537.
+Df Residuals:                        878   BIC:                             1648.
+Df Model:                             22                                         
+Covariance Type:               nonrobust                                         
+=================================================================================================================================
+                                                                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                         0.7618      0.108      7.051      0.000       0.550       0.974
+C(sex_orientation_group)[T.Heterosexual]                         -0.3512      0.115     -3.066      0.002      -0.576      -0.126
+C(sex_orientation_group)[T.Homosexual]                           -0.0895      0.180     -0.497      0.619      -0.443       0.264
+C(sex_orientation_group)[T.Other]                                -0.2686      0.210     -1.278      0.201      -0.681       0.144
+C(age_band)[T.25-34]                                             -0.1937      0.180     -1.078      0.281      -0.546       0.159
+C(age_band)[T.35-44]                                             -0.0531      0.230     -0.230      0.818      -0.505       0.399
+C(age_band)[T.45-54]                                              0.1567      0.247      0.634      0.526      -0.328       0.642
+C(age_band)[T.55-64]                                             -0.1105      0.310     -0.357      0.721      -0.718       0.497
+C(age_band)[T.65+]                                               -0.7191      0.246     -2.917      0.004      -1.203      -0.235
+C(income_group)[T.Low]                                            0.1124      0.045      2.495      0.013       0.024       0.201
+C(income_group)[T.Medium]                                        -0.0427      0.043     -0.996      0.320      -0.127       0.041
+C(sex_orientation_group)[T.Heterosexual]:C(age_band)[T.25-34]     0.3285      0.192      1.712      0.087      -0.048       0.705
+C(sex_orientation_group)[T.Homosexual]:C(age_band)[T.25-34]       0.2576      0.253      1.016      0.310      -0.240       0.755
+C(sex_orientation_group)[T.Other]:C(age_band)[T.25-34]            0.6330      0.351      1.802      0.072      -0.056       1.322
+C(sex_orientation_group)[T.Heterosexual]:C(age_band)[T.35-44]     0.0934      0.239      0.391      0.696      -0.376       0.563
+C(sex_orientation_group)[T.Homosexual]:C(age_band)[T.35-44]      -0.1690      0.312     -0.541      0.589      -0.782       0.444
+C(sex_orientation_group)[T.Other]:C(age_band)[T.35-44]            0.3560      0.459      0.775      0.439      -0.546       1.258
+C(sex_orientation_group)[T.Heterosexual]:C(age_band)[T.45-54]    -0.2146      0.255     -0.841      0.400      -0.715       0.286
+C(sex_orientation_group)[T.Homosexual]:C(age_band)[T.45-54]      -0.8354      0.465     -1.798      0.072      -1.747       0.076
+C(sex_orientation_group)[T.Other]:C(age_band)[T.45-54]         2.236e-16    1.6e-16      1.396      0.163   -9.07e-17    5.38e-16
+C(sex_orientation_group)[T.Heterosexual]:C(age_band)[T.55-64]    -0.0876      0.317     -0.276      0.782      -0.710       0.535
+C(sex_orientation_group)[T.Homosexual]:C(age_band)[T.55-64]       0.3258      0.571      0.570      0.569      -0.796       1.447
+C(sex_orientation_group)[T.Other]:C(age_band)[T.55-64]         1.095e-16   5.68e-17      1.930      0.054   -1.85e-18    2.21e-16
+C(sex_orientation_group)[T.Heterosexual]:C(age_band)[T.65+]       0.5697      0.258      2.212      0.027       0.064       1.075
+C(sex_orientation_group)[T.Homosexual]:C(age_band)[T.65+]              0          0        nan        nan           0           0
+C(sex_orientation_group)[T.Other]:C(age_band)[T.65+]                   0          0        nan        nan           0           0
+migrant_flag                                                     -0.0383      0.035     -1.099      0.272      -0.107       0.030
+==============================================================================
+Omnibus:                       32.887   Durbin-Watson:                   2.135
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               35.938
+Skew:                           0.489   Prob(JB):                     1.57e-08
+Kurtosis:                       2.964   Cond. No.                     1.30e+16
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.35e-29. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

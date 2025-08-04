@@ -1,0 +1,41 @@
+                              WLS Regression Results                             
+=================================================================================
+Dep. Variable:     loneliness_direct_bin   R-squared:                       0.054
+Model:                               WLS   Adj. R-squared:                  0.054
+Method:                    Least Squares   F-statistic:                     86.95
+Date:                   Sun, 27 Jul 2025   Prob (F-statistic):          4.79e-244
+Time:                           22:36:07   Log-Likelihood:                -24650.
+No. Observations:                  21190   AIC:                         4.933e+04
+Df Residuals:                      21175   BIC:                         4.945e+04
+Df Model:                             14                                         
+Covariance Type:               nonrobust                                         
+=================================================================================================================================
+                                                                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                         0.4898      0.022     22.125      0.000       0.446       0.533
+C(sex_orientation_group)[T.Heterosexual]                         -0.1189      0.020     -6.001      0.000      -0.158      -0.080
+C(sex_orientation_group)[T.Homosexual]                           -0.0161      0.031     -0.524      0.600      -0.076       0.044
+C(sex_orientation_group)[T.Other]                                 0.0083      0.047      0.176      0.861      -0.084       0.101
+C(migrant_flag)[T.1]                                              0.0238      0.023      1.050      0.294      -0.021       0.068
+C(age_band)[T.25-34]                                              0.0065      0.013      0.493      0.622      -0.019       0.033
+C(age_band)[T.35-44]                                             -0.0365      0.013     -2.800      0.005      -0.062      -0.011
+C(age_band)[T.45-54]                                             -0.0674      0.013     -5.228      0.000      -0.093      -0.042
+C(age_band)[T.55-64]                                             -0.1804      0.013    -14.271      0.000      -0.205      -0.156
+C(age_band)[T.65+]                                               -0.2234      0.013    -17.746      0.000      -0.248      -0.199
+C(income_group)[T.Low]                                            0.1543      0.009     17.529      0.000       0.137       0.172
+C(income_group)[T.Medium]                                         0.0722      0.008      9.097      0.000       0.057       0.088
+C(sex_orientation_group)[T.Heterosexual]:C(migrant_flag)[T.1]     0.0012      0.046      0.027      0.979      -0.090       0.092
+C(sex_orientation_group)[T.Homosexual]:C(migrant_flag)[T.1]      -0.0498      0.073     -0.683      0.495      -0.193       0.093
+C(sex_orientation_group)[T.Other]:C(migrant_flag)[T.1]           -0.2180      0.093     -2.356      0.019      -0.399      -0.037
+migrant_flag                                                      0.0238      0.023      1.050      0.294      -0.021       0.068
+==============================================================================
+Omnibus:                     4310.732   Durbin-Watson:                   1.965
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            14177.649
+Skew:                           1.027   Prob(JB):                         0.00
+Kurtosis:                       6.441   Cond. No.                     6.82e+15
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.16e-27. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.

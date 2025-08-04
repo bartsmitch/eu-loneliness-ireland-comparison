@@ -1,0 +1,14 @@
+Chi-square Test: ireland
+Chi2 statistic: 25.0573
+Degrees of freedom: 3
+p-value: 1.502e-05
+Observed (weighted counts):
+sex_orientation_group   Bisexual  Heterosexual  Homosexual     Other
+loneliness_direct_bin                                               
+0.0                    19.334488    509.075816   17.081684  3.426367
+1.0                    32.642141    319.531611   27.948059  8.679229
+Expected counts:
+sex_orientation_group  Bisexual  Heterosexual  Homosexual  Other
+loneliness_direct_bin                                           
+0.0                       30.43        485.05       26.36   7.09
+1.0                       21.55        343.56       18.67   5.02

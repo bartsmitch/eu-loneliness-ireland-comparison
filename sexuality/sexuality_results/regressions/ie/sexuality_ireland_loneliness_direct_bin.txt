@@ -1,0 +1,35 @@
+                              WLS Regression Results                             
+=================================================================================
+Dep. Variable:     loneliness_direct_bin   R-squared:                       0.093
+Model:                               WLS   Adj. R-squared:                  0.082
+Method:                    Least Squares   F-statistic:                     8.274
+Date:                   Sun, 27 Jul 2025   Prob (F-statistic):           6.18e-14
+Time:                           22:35:54   Log-Likelihood:                -753.54
+No. Observations:                    901   AIC:                             1531.
+Df Residuals:                        889   BIC:                             1589.
+Df Model:                             11                                         
+Covariance Type:               nonrobust                                         
+============================================================================================================
+                                               coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------
+Intercept                                    0.6655      0.083      8.039      0.000       0.503       0.828
+C(sex_orientation_group)[T.Heterosexual]    -0.2361      0.072     -3.264      0.001      -0.378      -0.094
+C(sex_orientation_group)[T.Homosexual]      -0.0843      0.099     -0.852      0.395      -0.279       0.110
+C(sex_orientation_group)[T.Other]           -0.0304      0.152     -0.201      0.841      -0.328       0.267
+C(age_band)[T.25-34]                         0.1075      0.058      1.853      0.064      -0.006       0.221
+C(age_band)[T.35-44]                         0.0106      0.058      0.184      0.854      -0.103       0.124
+C(age_band)[T.45-54]                        -0.0784      0.060     -1.312      0.190      -0.196       0.039
+C(age_band)[T.55-64]                        -0.2145      0.062     -3.478      0.001      -0.336      -0.093
+C(age_band)[T.65+]                          -0.1976      0.069     -2.861      0.004      -0.333      -0.062
+C(income_group)[T.Low]                       0.1195      0.045      2.666      0.008       0.032       0.207
+C(income_group)[T.Medium]                   -0.0374      0.043     -0.875      0.382      -0.121       0.047
+migrant_flag                                -0.0374      0.034     -1.085      0.278      -0.105       0.030
+==============================================================================
+Omnibus:                       29.290   Durbin-Watson:                   2.097
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               31.675
+Skew:                           0.458   Prob(JB):                     1.32e-07
+Kurtosis:                       2.924   Cond. No.                         16.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

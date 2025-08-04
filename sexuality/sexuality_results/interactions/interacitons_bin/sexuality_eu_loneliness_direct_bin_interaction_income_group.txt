@@ -1,0 +1,41 @@
+                              WLS Regression Results                             
+=================================================================================
+Dep. Variable:     loneliness_direct_bin   R-squared:                       0.055
+Model:                               WLS   Adj. R-squared:                  0.054
+Method:                    Least Squares   F-statistic:                     72.10
+Date:                   Sun, 27 Jul 2025   Prob (F-statistic):          7.00e-243
+Time:                           22:36:08   Log-Likelihood:                -24646.
+No. Observations:                  21190   AIC:                         4.933e+04
+Df Residuals:                      21172   BIC:                         4.947e+04
+Df Model:                             17                                         
+Covariance Type:               nonrobust                                         
+======================================================================================================================================
+                                                                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                              0.3986      0.040     10.072      0.000       0.321       0.476
+C(sex_orientation_group)[T.Heterosexual]                              -0.0250      0.039     -0.644      0.520      -0.101       0.051
+C(sex_orientation_group)[T.Homosexual]                                 0.0153      0.054      0.283      0.777      -0.091       0.121
+C(sex_orientation_group)[T.Other]                                      0.1345      0.098      1.370      0.171      -0.058       0.327
+C(income_group)[T.Low]                                                 0.2724      0.048      5.633      0.000       0.178       0.367
+C(income_group)[T.Medium]                                              0.1841      0.047      3.948      0.000       0.093       0.276
+C(age_band)[T.25-34]                                                   0.0078      0.013      0.585      0.559      -0.018       0.034
+C(age_band)[T.35-44]                                                  -0.0352      0.013     -2.697      0.007      -0.061      -0.010
+C(age_band)[T.45-54]                                                  -0.0659      0.013     -5.109      0.000      -0.091      -0.041
+C(age_band)[T.55-64]                                                  -0.1790      0.013    -14.162      0.000      -0.204      -0.154
+C(age_band)[T.65+]                                                    -0.2215      0.013    -17.586      0.000      -0.246      -0.197
+C(sex_orientation_group)[T.Heterosexual]:C(income_group)[T.Low]       -0.1235      0.049     -2.511      0.012      -0.220      -0.027
+C(sex_orientation_group)[T.Homosexual]:C(income_group)[T.Low]         -0.0693      0.072     -0.963      0.336      -0.210       0.072
+C(sex_orientation_group)[T.Other]:C(income_group)[T.Low]              -0.1522      0.118     -1.290      0.197      -0.384       0.079
+C(sex_orientation_group)[T.Heterosexual]:C(income_group)[T.Medium]    -0.1164      0.047     -2.458      0.014      -0.209      -0.024
+C(sex_orientation_group)[T.Homosexual]:C(income_group)[T.Medium]      -0.0123      0.071     -0.173      0.862      -0.151       0.126
+C(sex_orientation_group)[T.Other]:C(income_group)[T.Medium]           -0.2971      0.115     -2.578      0.010      -0.523      -0.071
+migrant_flag                                                           0.0450      0.009      4.741      0.000       0.026       0.064
+==============================================================================
+Omnibus:                     4339.556   Durbin-Watson:                   1.966
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            14309.784
+Skew:                           1.033   Prob(JB):                         0.00
+Kurtosis:                       6.456   Cond. No.                         96.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
