@@ -1,0 +1,29 @@
+                               WLS Regression Results                               
+====================================================================================
+Dep. Variable:     loneliness_direct_binary   R-squared:                       0.038
+Model:                                  WLS   Adj. R-squared:                  0.038
+Method:                       Least Squares   F-statistic:                     186.3
+Date:                      Sun, 27 Jul 2025   Prob (F-statistic):          2.78e-195
+Time:                              21:58:13   Log-Likelihood:                -27663.
+No. Observations:                     23581   AIC:                         5.534e+04
+Df Residuals:                         23575   BIC:                         5.539e+04
+Df Model:                                 5                                         
+Covariance Type:                  nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+Intercept                0.4902      0.009     51.708      0.000       0.472       0.509
+C(age_band)[T.25-34]    -0.0319      0.012     -2.562      0.010      -0.056      -0.008
+C(age_band)[T.35-44]    -0.0663      0.012     -5.473      0.000      -0.090      -0.043
+C(age_band)[T.45-54]    -0.0967      0.012     -8.057      0.000      -0.120      -0.073
+C(age_band)[T.55-64]    -0.2061      0.012    -17.620      0.000      -0.229      -0.183
+C(age_band)[T.65+]      -0.2602      0.012    -22.459      0.000      -0.283      -0.238
+==============================================================================
+Omnibus:                     5323.816   Durbin-Watson:                   1.945
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            17082.832
+Skew:                           1.147   Prob(JB):                         0.00
+Kurtosis:                       6.482   Cond. No.                         8.51
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

@@ -1,0 +1,8 @@
+          Multiple Comparison of Means - Tukey HSD, FWER=0.05          
+=======================================================================
+     group1           group2      meandiff p-adj   lower  upper  reject
+-----------------------------------------------------------------------
+Large town/city             Rural  -0.1402  0.792 -0.6466 0.3662  False
+Large town/city Small/medium town  -0.1105 0.8424  -0.576  0.355  False
+          Rural Small/medium town   0.0297  0.989 -0.4642 0.5236  False
+-----------------------------------------------------------------------

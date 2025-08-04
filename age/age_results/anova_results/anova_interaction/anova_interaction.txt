@@ -1,0 +1,35 @@
+                               WLS Regression Results                               
+====================================================================================
+Dep. Variable:     loneliness_direct_binary   R-squared:                       0.039
+Model:                                  WLS   Adj. R-squared:                  0.039
+Method:                       Least Squares   F-statistic:                     90.72
+Date:                      Sun, 27 Jul 2025   Prob (F-statistic):          8.60e-203
+Time:                              21:58:16   Log-Likelihood:                -28486.
+No. Observations:                     24546   AIC:                         5.700e+04
+Df Residuals:                         24534   BIC:                         5.709e+04
+Df Model:                                11                                         
+Covariance Type:                  nonrobust                                         
+====================================================================================================================
+                                                       coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------
+Intercept                                            0.4902      0.009     51.704      0.000       0.472       0.509
+C(age_band)[T.25-34]                                -0.0319      0.012     -2.562      0.010      -0.056      -0.008
+C(age_band)[T.35-44]                                -0.0663      0.012     -5.472      0.000      -0.090      -0.043
+C(age_band)[T.45-54]                                -0.0967      0.012     -8.057      0.000      -0.120      -0.073
+C(age_band)[T.55-64]                                -0.2061      0.012    -17.618      0.000      -0.229      -0.183
+C(age_band)[T.65+]                                  -0.2602      0.012    -22.457      0.000      -0.283      -0.238
+C(country_group)[T.Ireland]                          0.0007      0.041      0.016      0.987      -0.080       0.082
+C(age_band)[T.25-34]:C(country_group)[T.Ireland]     0.1004      0.055      1.826      0.068      -0.007       0.208
+C(age_band)[T.35-44]:C(country_group)[T.Ireland]     0.0383      0.054      0.712      0.476      -0.067       0.144
+C(age_band)[T.45-54]:C(country_group)[T.Ireland]    -0.0115      0.054     -0.212      0.832      -0.118       0.095
+C(age_band)[T.55-64]:C(country_group)[T.Ireland]    -0.0513      0.057     -0.899      0.369      -0.163       0.061
+C(age_band)[T.65+]:C(country_group)[T.Ireland]       0.0200      0.065      0.307      0.759      -0.108       0.148
+==============================================================================
+Omnibus:                     5361.984   Durbin-Watson:                   1.952
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            16539.108
+Skew:                           1.124   Prob(JB):                         0.00
+Kurtosis:                       6.335   Cond. No.                         38.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

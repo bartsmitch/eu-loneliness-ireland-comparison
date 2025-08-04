@@ -1,0 +1,14 @@
+Chi-square Test: ireland
+Chi2 statistic: 15.8950
+Degrees of freedom: 2
+p-value: 0.0003535
+Observed (weighted counts):
+municipality_type_group  Large town/city       Rural  Small/medium town
+loneliness_direct_bin                                                  
+0.0                           160.148755  214.554700         171.850961
+1.0                           143.167888  101.531556         132.129841
+Expected counts:
+municipality_type_group  Large town/city   Rural  Small/medium town
+loneliness_direct_bin                                              
+0.0                               179.53  187.09             179.93
+1.0                               123.78  128.99             124.05

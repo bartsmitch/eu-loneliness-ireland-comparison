@@ -1,0 +1,50 @@
+                             WLS Regression Results                             
+================================================================================
+Dep. Variable:     loneliness_djg_total   R-squared:                       0.225
+Model:                              WLS   Adj. R-squared:                  0.183
+Method:                   Least Squares   F-statistic:                     5.335
+Date:                  Mon, 28 Jul 2025   Prob (F-statistic):           7.28e-15
+Time:                          13:13:37   Log-Likelihood:                -1027.7
+No. Observations:                   504   AIC:                             2109.
+Df Residuals:                       477   BIC:                             2223.
+Df Model:                            26                                         
+Covariance Type:              nonrobust                                         
+==========================================================================================================================================
+                                                                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------------------------------------
+Intercept                                                                  3.1525      0.342      9.206      0.000       2.480       3.825
+C(municipality_type_group)[T.Rural]                                       -0.3860      0.342     -1.129      0.259      -1.058       0.286
+C(municipality_type_group)[T.Small/medium town]                            0.5478      0.321      1.708      0.088      -0.082       1.178
+C(years_band)[T.6-15]                                                      0.1344      0.383      0.351      0.726      -0.618       0.887
+C(years_band)[T.16-25]                                                    -0.5718      0.385     -1.485      0.138      -1.328       0.185
+C(years_band)[T.26-35]                                                    -0.4926      0.570     -0.864      0.388      -1.613       0.628
+C(years_band)[T.36-45]                                                    -0.4270      0.515     -0.828      0.408      -1.440       0.586
+C(years_band)[T.46+]                                                      -0.0394      0.401     -0.098      0.922      -0.828       0.749
+C(age_band)[T.25-34]                                                       0.2273      0.263      0.864      0.388      -0.290       0.744
+C(age_band)[T.35-44]                                                       0.0308      0.251      0.123      0.902      -0.463       0.525
+C(age_band)[T.45-54]                                                      -0.2435      0.258     -0.945      0.345      -0.750       0.263
+C(age_band)[T.55-64]                                                      -1.1310      0.301     -3.761      0.000      -1.722      -0.540
+C(age_band)[T.65+]                                                        -0.1998      0.300     -0.665      0.506      -0.790       0.390
+C(income_group)[T.Low]                                                     0.2869      0.218      1.314      0.189      -0.142       0.716
+C(income_group)[T.Medium]                                                 -0.2834      0.204     -1.392      0.164      -0.683       0.117
+C(education_group)[T.Primary or less]                                      0.2473      0.291      0.849      0.396      -0.325       0.819
+C(education_group)[T.Secondary]                                            0.1757      0.192      0.917      0.360      -0.201       0.552
+C(municipality_type_group)[T.Rural]:C(years_band)[T.6-15]                  0.8145      0.515      1.583      0.114      -0.197       1.826
+C(municipality_type_group)[T.Small/medium town]:C(years_band)[T.6-15]     -0.3122      0.497     -0.628      0.530      -1.289       0.664
+C(municipality_type_group)[T.Rural]:C(years_band)[T.16-25]                 1.6017      0.501      3.200      0.001       0.618       2.585
+C(municipality_type_group)[T.Small/medium town]:C(years_band)[T.16-25]    -0.0396      0.498     -0.079      0.937      -1.018       0.939
+C(municipality_type_group)[T.Rural]:C(years_band)[T.26-35]                 2.6000      0.822      3.163      0.002       0.985       4.215
+C(municipality_type_group)[T.Small/medium town]:C(years_band)[T.26-35]     0.6926      0.737      0.940      0.348      -0.755       2.140
+C(municipality_type_group)[T.Rural]:C(years_band)[T.36-45]                -0.5060      0.677     -0.748      0.455      -1.836       0.824
+C(municipality_type_group)[T.Small/medium town]:C(years_band)[T.36-45]     0.7752      0.801      0.968      0.334      -0.799       2.350
+C(municipality_type_group)[T.Rural]:C(years_band)[T.46+]                  -1.0033      0.627     -1.600      0.110      -2.235       0.228
+C(municipality_type_group)[T.Small/medium town]:C(years_band)[T.46+]      -0.0116      0.605     -0.019      0.985      -1.200       1.177
+==============================================================================
+Omnibus:                        4.804   Durbin-Watson:                   1.980
+Prob(Omnibus):                  0.091   Jarque-Bera (JB):                6.030
+Skew:                          -0.055   Prob(JB):                       0.0490
+Kurtosis:                       3.525   Cond. No.                         30.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

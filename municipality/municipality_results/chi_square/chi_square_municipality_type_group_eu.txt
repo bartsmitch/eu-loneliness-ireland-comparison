@@ -1,0 +1,14 @@
+Chi-square Test: eu
+Chi2 statistic: 17.1952
+Degrees of freedom: 2
+p-value: 0.0001846
+Observed (weighted counts):
+municipality_type_group  Large town/city        Rural  Small/medium town
+loneliness_direct_bin                                                   
+0.0                          6885.435253  3678.491353        4624.704474
+1.0                          3616.641219  2118.756389        2752.622857
+Expected counts:
+municipality_type_group  Large town/city    Rural  Small/medium town
+loneliness_direct_bin                                               
+0.0                              6737.11  3718.95            4732.57
+1.0                              3764.97  2078.30            2644.75

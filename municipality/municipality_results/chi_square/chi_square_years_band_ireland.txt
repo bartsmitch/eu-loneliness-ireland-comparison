@@ -1,0 +1,14 @@
+Chi-square Test: ireland
+Chi2 statistic: 9.0048
+Degrees of freedom: 5
+p-value: 0.1089
+Observed (weighted counts):
+years_band                    0–5        6–15       16–25      26–35      36–45        46+
+loneliness_direct_bin                                                                     
+0.0                    130.315105  114.036268  134.069943  51.327079  51.344125  65.461896
+1.0                    107.446062   91.129997   82.601566  36.769068  20.065473  38.817119
+Expected counts:
+years_band                0–5    6–15   16–25  26–35  36–45    46+
+loneliness_direct_bin                                             
+0.0                    140.73  121.44  128.25  52.14  42.27  61.72
+1.0                     97.03   83.73   88.42  35.95  29.14  42.56
